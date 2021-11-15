@@ -30,7 +30,6 @@ public class App {
             System.out.println("Escolha invalida");
             LerJogada();
         }
-
     }
 
     public static boolean ValidaJogada(int Escolha) {
@@ -65,6 +64,7 @@ public class App {
                     if (Computador == 1) {
                         System.out.println("Voce ganhou!!");
                     }
+                    break;
 
                 case 3:
                     if (Computador == 1) {
@@ -74,6 +74,7 @@ public class App {
                     if (Computador == 2) {
                         System.out.println("Voce ganhou!!");
                     }
+                    break;
             }
         }    
     }
